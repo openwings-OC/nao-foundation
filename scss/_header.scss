@@ -1,0 +1,45 @@
+div.header{
+	margin-bottom: 6em;
+}
+div.logo-menu{
+	float: left;
+	z-index: 5;
+	margin-left: 1em;
+}
+div.top-bar{
+	height: 2em;
+}
+li.naoMenuItem{
+	margin-right: 1em;
+}
+li.naoMenuItem > a{
+	color: white;
+}
+li.is-submenu-item > a{
+	color: white;
+}
+li.is-submenu-item > a:hover{
+	color: $medium-gray;
+}
+
+li.blueMenuItem{
+	background-color: $primary-color;
+}
+li.greenMenuItem{
+	background-color: $secondary-color;
+}
+li.orangeMenuItem{
+	background-color: $third-color;
+}
+div.menutest{
+	background-image: url("/images/png/Bandeau_desktop_menu.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1em;
+}
+div.menutest.is-stuck {
+	background-image: none;
+	background-color: white;
+	height: 6em;
+	padding-top: 1.8em;
+}

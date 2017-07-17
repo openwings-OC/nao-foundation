@@ -1,0 +1,18 @@
+.results {
+  line-height: 50px;
+  font-size:20px;
+  border: 2px solid #F8F8F8 ;
+  background: white;
+  cursor: pointer !important;
+  padding-left:20px;
+}
+
+.ui-autocomplete {
+  height:200px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+  width:100%;
+}
+
+

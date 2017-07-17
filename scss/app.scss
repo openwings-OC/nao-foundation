@@ -3,10 +3,18 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'globalNao';
+@import 'header';
+@import 'footer';
+@import 'homepage';
+@import 'fa';
+@import 'inputFile';
+@import 'map';
+@import 'search';
 
 @include foundation-global-styles;
-//@include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-grid;
+//@include foundation-flex-grid;
 @include foundation-xy-grid-classes;
 @include foundation-typography;
 @include foundation-button;
@@ -53,3 +61,4 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+

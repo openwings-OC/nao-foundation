@@ -1,0 +1,19 @@
+div.callout.socialLinks{
+	position: static;
+	background-color: $secondary-color;
+	color: white;
+}
+div.linksFooter{
+	list-style:none;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: $medium-gray;
+}
+i.fa{
+	background: $medium-gray;
+	border-radius: 100%;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	margin-right: 1em;
+}
