@@ -5,15 +5,64 @@ div.logo-menu{
 	float: left;
 	z-index: 5;
 	margin-left: 1em;
+	margin-top:-4em;
 }
-div.top-bar{
+
+@media screen and (max-width: 640px ){
+	div.logo-menu {
+      position: absolute;
+      right:20px;
+      width: 130px;
+      z-index: 0;
+	}
+}
+
+@media screen and (max-width: 1280px  ) and(min-width: 800px){
+	.naoMenuItem{
+		margin-bottom:1em;
+	}
+	div.header{
+		margin-bottom: 7em;
+	}
+	div.logo-menu {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 800px  ) and(min-width: 640px){
+	.naoMenuItem{
+		margin-bottom:1em;
+	}
+	div.header{
+		margin-bottom: 11em;
+	}
+	div.logo-menu {
+		width: 150px;
+	}
+}
+
+.naoMenuItem a
+{
+	padding-left:1.5em !important;
+}
+
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a::after
+{
+	border-top-color: #4A4A4A !important;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+}
+
+/*div.top-bar{
 	height: 2em;
-}
+}*/
 li.naoMenuItem{
 	margin-right: 1em;
 }
 li.naoMenuItem > a{
 	color: white;
+	line-height:1.9em;
 }
 li.is-submenu-item > a{
 	color: white;
@@ -32,7 +81,6 @@ li.orangeMenuItem{
 	background-color: $third-color;
 }
 div.menutest{
-	background-image: url("/images/png/Bandeau_desktop_menu.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 1em;
@@ -43,3 +91,57 @@ div.menutest.is-stuck {
 	height: 6em;
 	padding-top: 1.8em;
 }
+
+div.menutest.is-stuck .logo-menu img {
+	width:100px;
+}
+
+div.menutest.is-stuck .logo-menu {
+	margin-top:-1.5em;
+}
+
+#form-home > div > div {
+	padding-left:0;
+	padding-bottom:0;
+}
+
+#form-home #search-home {
+	height:3.4em;
+}
+
+#nao-menu {
+	padding:0;
+}
+
+.title-bar {
+  background: none!important;
+  margin-top:3em;
+}
+
+.menu-icon::after {
+	background: $secondary-color !important;
+    box-shadow: 0 7px 0 $secondary-color, 0 14px 0 $secondary-color !important;
+}
+
+.title-mobile {
+  padding-bottom:0px;
+  margin-bottom: 0px !important;
+  background: $secondary-color !important;
+  margin-top:5em !important;
+}
+
+.menu-icon {
+  width:50px !important;
+  height:32px !important;
+}
+
+
+.is-dropdown-submenu {
+  //border:none !important;
+  border-top: none !important;
+}
+
+.menu-left .is-dropdown-submenu {
+  left: 0 !important;
+}
+

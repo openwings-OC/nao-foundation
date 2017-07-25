@@ -2,3 +2,29 @@
   line-height: 2.8;
   color: #535353;
 }
+
+/*Reseaux sociaux equipe*/
+
+.equipe i {
+  width:35px;
+  height:35px;
+  text-align: center;
+  border-radius : 60px;
+  padding:7px;
+  margin:4px;
+  background: white;
+  border:2px solid grey;
+  box-shadow: 2px 3px 8px 1px grey;
+}
+
+.equipe i.fa-linkedin {
+  color: #0084BF;
+}
+
+.equipe i.fa-facebook {
+  color: #3B5998;
+}
+
+.equipe i.fa-pinterest {
+  color: #BD081C;
+}

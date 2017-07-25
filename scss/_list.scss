@@ -1,0 +1,43 @@
+.liste-besoin {
+  list-style-type: none;
+}
+
+.liste-besoin li {
+  color: #1489BC;
+}
+
+.liste-besoin li img {
+  padding-right:20px;
+}
+
+.list-steps {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-steps li {
+  counter-increment: step-counter;
+  color: #1489BC;
+}
+
+.list-steps li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 150%;
+  color: #0dcc5a;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.list-objectifs-adhesion, .list-comment-adherer  {
+  list-style-type: none;
+}
+
+.list-objectifs-adhesion li, .list-comment-adherer li {
+  margin-bottom:10px;
+}
+
+.list-objectifs-adhesion li img, .list-comment-adherer li img {
+  margin-right:10px;
+}

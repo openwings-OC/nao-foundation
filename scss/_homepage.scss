@@ -3,5 +3,47 @@ div.callout.ccf{
 	background-color: $primary-color;
 }
 h2.callout.greenBackground{
-	background-color: $primary-color;
+	background-color: $secondary-color;
+    font-size: 1.8em;
+    text-align: center;
+  border: none;
+}
+
+#doigt {
+	padding-top:20%;
+}
+
+.last-title {
+  margin:0 !important;
+  border:none;
+}
+
+.last-observation {
+  padding:0 !important;
+  border:none !important;
+}
+
+.last-observation .card {
+  margin:0 !important;
+  border:none;
+  background: $primary-color;
+}
+
+.last-observation .card a {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+  #profile {
+    margin-left:10em;
+  }
+}
+
+#last-observations {
+  margin-bottom:5em;
+}
+
+#bouton-signaler{
+  height:19.55em;
 }
