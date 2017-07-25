@@ -1,21 +1,33 @@
-.content-landing {
+.body-landing-a {
   background: url("../images/jpg/background_landing_a.jpg") no-repeat center fixed;
-  background-size: cover;
   margin-left:3em;
 }
 
+.body-landing-a .header {
+  display: none;
+}
+
+.body-landing-a .footer {
+  display: none;
+}
 @media screen and (max-width: 640px) {
   .body-landing-a {
     margin-left: auto;
     margin-right: auto;
   }
+  #form-landing {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
   .body-landing-b {
     margin-left: auto;
     margin-right:auto;
   }
+  .slogan {
+    margin-top: 3.5em;
+  }
   .slogan h1 {
     font-size: 1em !important;
-    color: white;
   }
   .slogan h1:nth-child(2){
     padding-left:20px !important;
@@ -23,6 +35,24 @@
 
   .slogan h1:nth-child(3){
     padding-left:40px !important;
+  }
+  #accedez-rapports-small + button {
+    margin-top:250px !important;
+  }
+  .content-landing {
+    background: url("../images/jpg/background_landing_a.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  .body-landing-a {
+    background: none;
+  }
+
+  .panel-program .panel {
+    background: none !important;
+
+  }
+  .panel-program .panel p {
+    color: white !important;
   }
 }
 @media screen and (min-width: 641px){
@@ -114,4 +144,37 @@
 #accedez-rapports p {
   margin-top:0.8em;
   font-size:1.2em;
+}
+
+#accedez-rapports-small {
+  border-radius : 20em;
+  background: #FF8E10;
+  color: white;
+  width:12em;
+  height:12em;
+  padding:1em;
+  position: absolute;
+  right:0;
+}
+
+#accedez-rapports-small p {
+  margin-top:0.8em;
+  font-size:1.2em;
+}
+
+#accedez-rapports-small, #accedez-rapports{
+ transform: rotate(15deg);
+}
+
+#deja-compte label{
+  background: none !important;
+}
+
+#header-landing {
+  height:14rem;
+  padding-top:40px;
+}
+
+.footer-landing h3{
+  color: $third-color;
 }
