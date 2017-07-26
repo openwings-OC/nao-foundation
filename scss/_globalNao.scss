@@ -53,3 +53,11 @@ div.row.userForms{
   height:100%;
 }
 
+/*formulaire inscription */
+@media screen and (max-width: 640px){
+  .row.userForms {
+    width:auto !important;
+  }
+
+}
+

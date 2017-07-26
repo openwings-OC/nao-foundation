@@ -3,21 +3,27 @@
   margin-left:3em;
 }
 
-.body-landing-a .header {
+.body-landing-b {
+  background: url("../images/jpg/background_landing_b.jpg") no-repeat center fixed;
+  margin-left:3em;
+}
+
+.body-landing-a .header, .body-landing-b .header {
   display: none;
 }
 
-.body-landing-a .footer {
+.body-landing-a .footer, .body-landing-b .footer {
   display: none;
 }
+
 @media screen and (max-width: 640px) {
   .body-landing-a {
     margin-left: auto;
     margin-right: auto;
   }
   #form-landing {
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   .body-landing-b {
     margin-left: auto;
@@ -39,11 +45,19 @@
   #accedez-rapports-small + button {
     margin-top:250px !important;
   }
-  .content-landing {
+  .body-landing-a .content-landing {
     background: url("../images/jpg/background_landing_a.jpg") no-repeat center fixed;
     background-size: cover;
   }
   .body-landing-a {
+    background: none;
+  }
+
+  .body-landing-b .content-landing {
+    background: url("../images/jpg/background_landing_b.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  .body-landing-b {
     background: none;
   }
 
@@ -55,10 +69,11 @@
     color: white !important;
   }
 }
+
 @media screen and (min-width: 641px){
   .slogan h1 {
     font-size: 2.9em !important;
-    color: white;
+    color: white !important;
   }
   .slogan h1:nth-child(2){
     padding-left:40px !important;
@@ -67,12 +82,26 @@
   .slogan h1:nth-child(3){
     padding-left:80px !important;
   }
-}
+  .footer-landing img {
+    float: left;
+  }
+  .footer-landing h3 {
+    position: fixed;
+    bottom:0 !important;
+    right:0;
+    color: white !important;
+    font-size:1em;
+    text-align: right;
+  }
 
-.body-landing-b {
-  background: url("../images/jpg/background_landing_b.jpg") no-repeat center fixed;
-  background-size: cover;
-  margin-left:3em;
+  .body-landing-b .panel-program .panel p {
+    color: white;
+    font-size:2em;
+  }
+
+  .body-landing-b .panel-program .panel {
+    background: none;
+  }
 }
 
 .logo-slogan {
@@ -178,3 +207,4 @@
 .footer-landing h3{
   color: $third-color;
 }
+
