@@ -45,19 +45,7 @@ button.button.third{
 div.alreadyLogin{
   margin-bottom: 2em;
 }
-div.row.userForms{
-  width: 40em;
-}
 
 .img-card img {
   height:100%;
 }
-
-/*formulaire inscription */
-@media screen and (max-width: 640px){
-  .row.userForms {
-    width:auto !important;
-  }
-
-}
-
