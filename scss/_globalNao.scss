@@ -69,6 +69,25 @@ div.row.userForms{
   font-weight: bold;
 }
 
+#information-validation .callout {
+  background: $primary-color;
+  border:none;
+}
+
+#information-curseur .callout{
+  background: $third-color;
+  margin-bottom:0 !important;
+}
+
+#appbundle_observation_save {
+  margin-top:0px !important;
+}
+
+#form-add-observation label {
+  color: $primary-color;
+  font-size:1em;
+}
+
 /*Bloc erreurs*/
 
 .erreur-desc {
