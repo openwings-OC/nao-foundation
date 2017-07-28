@@ -1,0 +1,22 @@
+.titre-observation {
+  background: $secondary-color !important;
+}
+
+.gras {
+  font-weight: bold;
+}
+.description-observation{
+  color: $primary-color;
+}
+
+.dernieres-observations {
+  float: none !important;
+}
+
+.table-dernieres-observations tr {
+  background: $primary-color !important;
+  color: white;
+}
+.table-dernieres-observations a {
+  color: white !important;
+}

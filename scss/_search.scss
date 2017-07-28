@@ -5,6 +5,7 @@
   background: white;
   cursor: pointer !important;
   padding-left:20px;
+  width: 100% !important;
 }
 
 .ui-autocomplete {
@@ -16,3 +17,40 @@
   width:100%;
 }
 
+#entete-table-search {
+  background: $secondary-color;
+}
+#entete-table-search th {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  border: 1px solid black;
+}
+
+#table-search {
+  border: 1px solid black;
+  margin-bottom:0 !important;
+}
+
+#table-search tbody td {
+  border: 1px solid black;
+  background: none !important;
+}
+
+#table-search tbody tr {
+  background: none !important;
+}
+
+.pagination .current {
+  background: white !important;
+}
+
+.pagination {
+  margin-bottom:.5em !important;
+  margin-top:.5em;
+}
+.bloc-pagination {
+  background: $secondary-color !important;
+  margin-bottom:1em;
+  margin-top:.1em;
+}

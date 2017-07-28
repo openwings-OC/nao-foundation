@@ -73,6 +73,9 @@ div.row.userForms{
   background: $primary-color;
   border:none;
 }
+#information-validation {
+  margin-top:2em;
+}
 
 #information-curseur .callout{
   background: $third-color;
@@ -88,9 +91,42 @@ div.row.userForms{
   font-size:1em;
 }
 
+#label-image {
+  color: white !important;
+}
+
+.button-confirm {
+  margin-top:0 !important;
+}
+
 /*Bloc erreurs*/
 
 .erreur-desc {
   height:20em;
   margin-top:5em;
+}
+
+/*Messages flash*/
+
+.message-flash>div img, .flash-errors>div img {
+  margin-right:1em;
+}
+
+.message-flash {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  background: none !important;
+  border:2px solid $secondary-color !important;
+}
+
+.message-flash p, .flash-errors p {
+  color: $primary-color !important;
+}
+.flash-errors {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  background: none !important;
+  border:2px solid $third-color !important;
 }
