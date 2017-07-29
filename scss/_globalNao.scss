@@ -130,3 +130,8 @@ div.row.userForms{
   background: none !important;
   border:2px solid $third-color !important;
 }
+
+#PopupSignupForm_0 {
+  position: relative;
+  z-index: 999999999;
+}
