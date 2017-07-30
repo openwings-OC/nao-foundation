@@ -149,3 +149,10 @@ div.alreadyLogin {
     background: none !important;
     border: 2px solid $third-color !important;
 }
+
+.greenBackground{
+    background-color: $secondary-color; 
+}
+.pagination.text-center {
+    float: right;
+}
