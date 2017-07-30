@@ -17,3 +17,10 @@ footer i.fa{
 	line-height: 1.5em;
 	margin-right: 1em;
 }
+
+@media screen and (max-width: 540px) {
+	footer i.fa{
+		line-height: 1.5em;
+		margin-right: 0em;
+	}
+}

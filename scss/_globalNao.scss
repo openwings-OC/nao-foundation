@@ -3,12 +3,28 @@
   color : #1489BC;
 }
 
-#schema p  {
-  color : #FF8E10;
+/*Taille et couleurs de Polices*/
+h2 {
+  font-size:1.2em !important;
+  color: #045477 !important;
+}
+h1 {
+  font-size:1.4em !important;
+  font-width:normal !important;
 }
 
-h1 {
-  font-size: 2rem !important;
+p.blue, li.blue, a.blue {
+  color: #045477 !important;
+}
+
+h2.green {
+  color: $secondary-color !important;
+}
+
+
+
+#schema p  {
+  color : #FF8E10;
 }
 
 /*Adherer a NAO*/
@@ -83,7 +99,7 @@ div.row.userForms{
 }
 
 #appbundle_observation_save {
-  margin-top:0px !important;
+  display: none;
 }
 
 #form-add-observation label {
@@ -131,7 +147,59 @@ div.row.userForms{
   border:2px solid $third-color !important;
 }
 
-#PopupSignupForm_0 {
-  position: relative;
-  z-index: 999999999;
+/*Equipe*/
+
+.equipe div {
+  margin-bottom:20px;
+}
+
+/*Plan du site*/
+.plan-site li {
+  list-style: none;
+}
+
+.plan-site ul {
+  border:1px solid $secondary-color;
+  padding:1em;
+  margin-left:0;
+}
+
+.plan-site {
+  margin-bottom:1em;
+}
+
+/*Editer utilisateur */
+
+.form-edit-user div:nth-child(3) {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+/*Changer mot de passe */
+.changePassword label {
+  text-align: left !important;
+  color: #045477 !important;
+}
+#fos_user_change_password_form > div > div > label, .userForms > div > form > div > label {
+  color: #045477 !important;
+  font-size: 1em !important;
+}
+
+/*Le projet*/
+
+.projet ul {
+  list-style: none;
+}
+
+.projet ul li {
+  margin-bottom:5px;
+}
+.projet ul li img {
+  margin-right:20px;
+}
+
+/*Editer son profil*/
+.form-edit-profil {
+  margin-bottom:2em;
 }
