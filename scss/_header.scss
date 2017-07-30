@@ -1,11 +1,27 @@
 div.header{
 	margin-bottom: 8em;
 }
+
 div.logo-menu{
 	float: left;
 	z-index: 5;
 	margin-left: 1em;
 	margin-top:-4em;
+}
+@media screen and (max-width: 640px ){
+  .logo-menu{
+    margin-top: -5.8em !important;
+    width:7em !important;
+  }
+}
+
+@media screen and (min-width: 1025px ){
+	#nao-menu {
+		margin-top:-20px;
+	}
+    .logo-menu img {
+      width:13em;
+    }
 }
 
 @media screen and (max-width: 1025px ){
@@ -70,9 +86,7 @@ div.logo-menu{
 	border-top-color: white !important;
 }
 
-/*div.top-bar{
-	height: 2em;
-}*/
+
 li.naoMenuItem{
 	margin-right: 1em;
 }
@@ -168,3 +182,5 @@ div.menutest.is-stuck .logo-menu {
 #menutest {
 	top: 0 !important;
 }
+
+

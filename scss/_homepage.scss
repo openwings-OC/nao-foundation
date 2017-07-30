@@ -34,6 +34,9 @@ h2.callout.greenBackground{
   text-align: center;
 }
 
+.last-observations-block {
+  margin-bottom:2em !important
+}
 @media screen and (min-width: 1440px) {
   #profile {
     margin-left:10em;
@@ -53,4 +56,14 @@ h2.callout.greenBackground{
   top: 0px !important;
   left:0px !important;
   float: right !important;
+}
+
+.pictos-fonctionnement a{
+  color : $third-color;
+}
+
+
+.bloc-action-home a {
+  height:14em;
+  padding-top: 4em;
 }
