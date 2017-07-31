@@ -54,3 +54,10 @@
   margin-bottom:1em;
   margin-top:.1em;
 }
+
+@include breakpoint(small down){
+  #table-search tbody tr td:nth-child(1) {
+    background: $secondary-color !important;
+  }
+}
+

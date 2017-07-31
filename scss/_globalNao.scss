@@ -21,6 +21,10 @@ h2.green {
   color: $secondary-color !important;
 }
 
+h2.white {
+  color: white !important;
+}
+
 
 
 #schema p  {
@@ -74,7 +78,6 @@ div.row.userForms{
   .row.userForms {
     width:auto !important;
   }
-
 }
 
 /*Formulaire addObservation */
@@ -98,11 +101,8 @@ div.row.userForms{
   margin-bottom:0 !important;
 }
 
-#appbundle_observation_save {
-  display: none;
-}
 
-#form-add-observation label {
+#form-add-observation label, #form-edit-observation label {
   color: $primary-color;
   font-size:1em;
 }
@@ -115,6 +115,14 @@ div.row.userForms{
   margin-top:0 !important;
 }
 
+#label-image {
+  width:100%;
+  overflow: hidden;
+}
+
+#form-add-observation-form #appbundle_observation_save {
+  display: none;
+}
 /*Bloc erreurs*/
 
 .erreur-desc {
@@ -202,4 +210,16 @@ div.row.userForms{
 /*Editer son profil*/
 .form-edit-profil {
   margin-bottom:2em;
+}
+
+/*Formulaire de contact*/
+
+#form_contact label {
+  color: white !important;
+}
+
+/*tableaux*/
+
+@include breakpoint(small down){
+  @include  table-stack
 }
