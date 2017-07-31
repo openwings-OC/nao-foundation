@@ -4,7 +4,7 @@ var $    = require('gulp-load-plugins')();
 
 var reload          =   browserSync.reload;
 
-var path = '/Users/JulienHalgand/Documents/Projets/Projet5/nao/';
+var path = 'C:/wamp/www/nao';
 
 var sassPaths = [
   'bower_components/normalize.scss/sass',
