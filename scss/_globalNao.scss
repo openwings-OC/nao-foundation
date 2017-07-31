@@ -1,118 +1,149 @@
-
-.infos-guide h3, .list-objectifs-adhesion li, .adherer-cest li, #adherer h3, .list-comment-adherer li, #adherer p, .association h3, .association p, .equipe h3, .equipe p, .mission, .projet  {
-  color : #1489BC;
+.infos-guide h3,
+.list-objectifs-adhesion li,
+.adherer-cest li,
+#adherer h3,
+.list-comment-adherer li,
+#adherer p,
+.association h3,
+.association p,
+.equipe h3,
+.equipe p,
+.mission,
+.projet {
+    color: #1489BC;
 }
+
+#schema p {
+    color: #FF8E10;
+}
+
 
 /*Taille et couleurs de Polices*/
+
 h2 {
-  font-size:1.2em !important;
-  color: #045477 !important;
-}
-h1 {
-  font-size:1.4em !important;
-  font-width:normal !important;
+    font-size: 1.2em !important;
+    color: #045477 !important;
 }
 
-p.blue, li.blue, a.blue {
-  color: #045477 !important;
+h1 {
+    font-size: 1.4em !important;
+    font-width: normal !important;
+}
+
+p.blue,
+li.blue,
+a.blue {
+    color: #045477 !important;
 }
 
 h2.green {
-  color: $secondary-color !important;
+    color: $secondary-color !important;
 }
 
 h2.white {
   color: white !important;
 }
 
-
-
 #schema p  {
   color : #FF8E10;
 }
 
+
 /*Adherer a NAO*/
 
-#biodiversite div:nth-child(2) p{
-  padding-top:5%;
-  color: #0DCC5A;
-  font-size: 1.3rem;
-  text-align: left;
-  font-style: italic;
-}
-#biodiversite div {
-  padding:0;
+#biodiversite div:nth-child(2) p {
+    padding-top: 5%;
+    color: #0DCC5A;
+    font-size: 1.3rem;
+    text-align: left;
+    font-style: italic;
 }
 
-#biodiversite div:nth-child(1) img{
-  max-width: 150px;
-  height:auto;
-  text-align: right;
+#biodiversite div {
+    padding: 0;
+}
+
+#biodiversite div:nth-child(1) img {
+    max-width: 150px;
+    height: auto;
+    text-align: right;
 }
 
 .logo {
-  max-width:360px;
+    max-width: 360px;
 }
 
-label.secondary{
-  background-color: $secondary-color;
-  color: white;
-  padding-left: 1em;
+label.secondary {
+    background-color: $secondary-color;
+    color: white;
+    padding-left: 1em;
 }
-button.button.third{
-  margin-top: 1em;
+
+button.button.third {
+    margin-top: 1em;
 }
-div.alreadyLogin{
-  margin-bottom: 2em;
-}
-div.row.userForms{
-  width: 40em;
+
+div.alreadyLogin {
+    margin-bottom: 2em;
 }
 
 .img-card img {
-  height:100%;
+    height: 100%;
 }
 
+
 /*formulaire inscription */
-@media screen and (max-width: 640px){
-  .row.userForms {
-    width:auto !important;
-  }
+
+
+@media screen and (max-width: 640px) {
+    .row.userForms {
+        width: auto !important;
+    }
 }
+
 
 /*Formulaire addObservation */
 
 #form-errors {
-  color: #CC4B37;
-  font-size: .75rem;
-  font-weight: bold;
+    color: #CC4B37;
+    font-size: .75rem;
+    font-weight: bold;
 }
 
 #information-validation .callout {
-  background: $primary-color;
-  border:none;
-}
-#information-validation {
-  margin-top:2em;
+    background: $primary-color;
+    border: none;
 }
 
-#information-curseur .callout{
-  background: $third-color;
-  margin-bottom:0 !important;
+#information-validation {
+    margin-top: 2em;
+}
+
+#information-curseur .callout {
+    background: $third-color;
+    margin-bottom: 0 !important;
 }
 
 
 #form-add-observation label, #form-edit-observation label {
   color: $primary-color;
-  font-size:1em;
+  font-size: 1em;
+}
+#appbundle_observation_save {
+    display: none;
+}
+
+#form-add-observation label {
+    color: $primary-color;
+    font-size: 1em;
 }
 
 #label-image {
-  color: white !important;
+    color: white !important;
 }
 
 .button-confirm {
-  margin-top:0 !important;
+    margin-top: 0 !important;
 }
 
 #label-image {
@@ -123,91 +154,116 @@ div.row.userForms{
 #form-add-observation-form #appbundle_observation_save {
   display: none;
 }
+
 /*Bloc erreurs*/
 
 .erreur-desc {
-  height:20em;
-  margin-top:5em;
+    height: 20em;
+    margin-top: 5em;
 }
+
 
 /*Messages flash*/
 
-.message-flash>div img, .flash-errors>div img {
-  margin-right:1em;
+.message-flash>div img,
+.flash-errors>div img {
+    margin-right: 1em;
 }
 
 .message-flash {
-  display: flex;
-  text-align: center;
-  justify-content:center;
-  background: none !important;
-  border:2px solid $secondary-color !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: none !important;
+    border: 2px solid $secondary-color !important;
 }
 
-.message-flash p, .flash-errors p {
-  color: $primary-color !important;
+.message-flash p,
+.flash-errors p {
+    color: $primary-color !important;
 }
+
 .flash-errors {
-  display: flex;
-  text-align: center;
-  justify-content:center;
-  background: none !important;
-  border:2px solid $third-color !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: none !important;
+    border: 2px solid $third-color !important;
 }
+
+.greenBackground {
+    background-color: $secondary-color;
+}
+
+.pagination.text-center {
+    float: right;
+}
+
 
 /*Equipe*/
 
 .equipe div {
-  margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
+
 /*Plan du site*/
+
 .plan-site li {
-  list-style: none;
+    list-style: none;
 }
 
 .plan-site ul {
-  border:1px solid $secondary-color;
-  padding:1em;
-  margin-left:0;
+    border: 1px solid $secondary-color;
+    padding: 1em;
+    margin-left: 0;
 }
 
 .plan-site {
-  margin-bottom:1em;
+    margin-bottom: 1em;
 }
+
 
 /*Editer utilisateur */
 
 .form-edit-user div:nth-child(3) {
-  display: flex;
-  justify-content:center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+
 /*Changer mot de passe */
+
 .changePassword label {
-  text-align: left !important;
-  color: #045477 !important;
+    text-align: left !important;
+    color: #045477 !important;
 }
-#fos_user_change_password_form > div > div > label, .userForms > div > form > div > label {
-  color: #045477 !important;
-  font-size: 1em !important;
+
+#fos_user_change_password_form>div>div>label,
+.userForms>div>form>div>label {
+    color: #045477 !important;
+    font-size: 1em !important;
 }
+
 
 /*Le projet*/
 
 .projet ul {
-  list-style: none;
+    list-style: none;
 }
 
 .projet ul li {
-  margin-bottom:5px;
-}
-.projet ul li img {
-  margin-right:20px;
+    margin-bottom: 5px;
 }
 
+.projet ul li img {
+    margin-right: 20px;
+}
+
+
 /*Editer son profil*/
+
 .form-edit-profil {
   margin-bottom:2em;
 }
@@ -221,5 +277,5 @@ div.row.userForms{
 /*tableaux*/
 
 @include breakpoint(small down){
-  @include  table-stack
+  @include  table-stack;
 }

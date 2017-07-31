@@ -1,5 +1,4 @@
 @charset 'utf-8';
-
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -15,7 +14,6 @@
 @import 'landing';
 @import 'fiche-observation';
 @import 'dernieres-observations';
-
 @include foundation-global-styles;
 @include foundation-grid;
 //@include foundation-flex-grid;
@@ -60,9 +58,7 @@
 @include foundation-visibility-classes;
 @include foundation-float-classes;
 @include foundation-flex-classes;
-
+@include table-hover;
 // @include foundation-prototype-classes;
-
 @include motion-ui-transitions;
 @include motion-ui-animations;
-
